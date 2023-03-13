@@ -65,16 +65,18 @@ font-family: 'Lexend Deca', sans-serif;
   --white-strans:hsla(0, 0%, 100%, 0.6);
   --inter-font:Inter, sans-serif;
   --lexend-font:Lexend Deca;
-  --font-size:1rem;
 
 }
+
+html {
+  font-size:16px;
 
 .violet {
   color: var(--soft-violet);
 }
 
 body {
-  font-size: var(--font-size);
+  font-size: 1em;
   color: var(--white);
 }
 
@@ -95,13 +97,13 @@ h3 {
 
 h2 {
   font-family:var(--lexend-font);
-  font-size: calc(2.5 * var(--font-size));
+  font-size: 2.5em;
   font-weight: 700;
 }
 
 .col-left p {
 font-family: var(--inter-font);
-  font-size: var(--font-size);
+  font-size: 1em;
   font-weight: 400;
 }
 
