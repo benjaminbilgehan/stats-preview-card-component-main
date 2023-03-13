@@ -95,7 +95,7 @@ h3 {
 
 h2 {
   font-family:var(--lexend-font);
-  font-size: calc(3 * var(--font-size));
+  font-size: calc(2.5 * var(--font-size));
   font-weight: 700;
 }
 
