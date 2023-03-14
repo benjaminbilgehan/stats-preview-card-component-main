@@ -160,6 +160,7 @@ img {
 
 .image-responsive {
   width: 100%;
-  height: auto;
-  /* max-width: 540px; */
+  height: 100%;
+  object-fit:cover;
+
 }
